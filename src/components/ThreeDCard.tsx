@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import { CardBody, CardContainer, CardItem } from "./ui/cards/3d-card/3d-card";
 import Link from "next/link";
 
 // Higher-Order Component allowing props with default values

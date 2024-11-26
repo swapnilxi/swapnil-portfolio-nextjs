@@ -1,18 +1,20 @@
 import React from 'react'
 import { ThreeDCard } from '@/components/ThreeDCard'
+import SkillCards from './pages/SkillsCards'
+import CompanyCards from './pages/CompanyCards'
+import AnimatedStatsCard from '@/components/ui/cards/AnimatedStatsCard'
 
 function HomePage() {
   return (
     <div>HomePage
-
+      <div></div>
       {/* skills */}
-      <div className='flex justify-center items-center gap-10'>
-        <ThreeDCard title="Apple Vision Pro"/>
-        <ThreeDCard title="AI Development"/>
-        <ThreeDCard title="Full Stack Development"/>
-        <ThreeDCard title="DevOps and Cloud Engineering"/>
-       
-      </div>
+      <SkillCards />
+    {/* sponsers */}
+    <div>
+    <CompanyCards/>
+    <AnimatedStatsCard/>
+    </div>
     </div>
   )
 }
